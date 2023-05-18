@@ -1,6 +1,8 @@
 require('@cypress/xpath');
 import { Page } from './page';
 
+//Page object model for the user registration page of the site
+
 export class UserRegistration extends Page{
     constructor(){
         super()         

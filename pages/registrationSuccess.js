@@ -1,5 +1,7 @@
 import { Page } from './page';
 
+//Page object model for the user verification page after user has sucessfully complete registration using email
+
 export class RegistrationSuccess extends Page{
     constructor(){
         super()

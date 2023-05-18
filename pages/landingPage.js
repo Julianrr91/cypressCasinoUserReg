@@ -1,6 +1,7 @@
 require('@cypress/xpath');
 import { Page } from '../pages/page';
 
+//Page object model for the landing page of the site
 export class LandingPage extends Page{
     constructor(){
         super();
